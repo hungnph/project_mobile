@@ -21749,16 +21749,23 @@ sub {
   }
 }
 
-page-login login-input {
+page-login .login {
+  margin: auto;
+  padding: auto;
+  width: 93%;
+}
+
+page-login .login-input {
   font-family: HelveticaNeueDeskInterface-Regular;
   color: rgba(0, 0, 0, 0.38);
-  font-size: 32px;
-  border-style: none, none, solid, none;
-  border-width: 2px;
+  font-size: 16px;
+  border-style: none none none none;
+  border-bottom: 2px solid #009688;
   letter-spacing: 0.5px;
 }
 
-page-login login-button {
+page-login .login-button {
+  margin-top: 30px;
   font-family: HelveticaNeueDeskInterface-Regular;
   font-size: 14px;
   color: #FFFFFF;
@@ -21768,7 +21775,7 @@ page-login login-button {
   border-radius: 2px;
 }
 
-page-login login-text {
+page-login .login-text {
   font-family: HelveticaNeueDeskInterface-Regular;
   font-size: 18px;
   color: #009688;
